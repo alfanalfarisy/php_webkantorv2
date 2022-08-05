@@ -122,4 +122,10 @@
   background-image: url(../img/bg-cuaca/hujan-sedang-lebat-malam.jpg);
 }
 
-/* kanan */
+/* dropdown */
+
+.dropdown-select-carousel-cuaca{
+  border:0px;
+  outline:0px;
+border-bottom: 1px solid #72c02c; margin-right:5px;
+}

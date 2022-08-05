@@ -54,10 +54,10 @@
         <!-- moment -->
 
         <!-- MAIN CSS FILE -->
-        <link href="/bmkgjuanda/assets/css/style.css" rel="stylesheet">
-        <link href="/bmkgjuanda/assets/css/home.news.css" rel="stylesheet">
-        <link href="/bmkgjuanda/assets/css/home.gempabumiterkini.css" rel="stylesheet">
+        <link href="/bmkgjuanda/assets/css/main.css" rel="stylesheet">
+        <link href="/bmkgjuanda/assets/css/carousel.news.css" rel="stylesheet">
         <link href="/bmkgjuanda/assets/css/carousel.cuaca.css" rel="stylesheet">
+        <link href="/bmkgjuanda/assets/css/card.gempaterkini.css" rel="stylesheet">
     </head>
     <!-- END HEAD -->
 

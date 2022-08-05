@@ -12,7 +12,17 @@
           </div>
           <!-- VIDEO YOUTUBE -->
           <div class="col-lg-5">
-              <iframe width="100%" height="310px" src="https://www.youtube.com/embed/udOySvTWfpw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <iframe width="100%" height="310px" src="https://www.youtube.com/embed/udOySvTWfpw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <div class="card-prakiraan-cuaca">
+              <div class="row mb-2" style="padding-left: 10px; padding-right: 10px;">
+                <select name="selectKab" id="selectKab" class="form-select form-select-sm col-md dropdown-select-carousel-cuaca" onchange="kabupatenSelected()"></select>
+                <select name="selectKec" id="selectKec" class="form-select form-select-sm col-md dropdown-select-carousel-cuaca" onchange="kecamatanSelected()"></select>
+                <select name="selectDate" id="selectDate" class="form-select form-select-sm col-md dropdown-select-carousel-cuaca" onchange="dateSelected()"></select>
+              </div>
+              <div id="prakicuWrapper" class="d-flex justify-content-center">
+                <div class="owl-carousel" id="prakicu"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

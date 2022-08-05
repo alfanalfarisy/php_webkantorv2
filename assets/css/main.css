@@ -673,3 +673,34 @@ FOOTER
   text-align: center;
   font-size: 13px;
 }
+
+
+
+/* HEADLINE */
+
+.headline h2,
+.headline h3,
+.headline h4 {
+  margin: 0 0 -2px;
+  padding-bottom: 5px;
+  display: inline-block;
+  border-bottom: 4px solid #72c02c;
+}
+
+.bmkg-home .headline {
+  margin: 0 0 13px 0;
+}
+
+.headline {
+  display: block;
+  margin: 10px 0 25px;
+  border-bottom: 1px dotted #e4e9f0;
+}
+
+
+.card-prakiraan-cuaca{
+  box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.05);
+-webkit-box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.05);
+-moz-box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.05); height:400px">
+}
+
