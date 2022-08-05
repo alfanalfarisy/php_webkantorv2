@@ -56,6 +56,7 @@
         <!-- MAIN CSS FILE -->
         <link href="/bmkgjuanda/assets/css/style.css" rel="stylesheet">
         <link href="/bmkgjuanda/assets/css/home.news.css" rel="stylesheet">
+        <link href="/bmkgjuanda/assets/css/home.gempabumiterkini.css" rel="stylesheet">
         <link href="/bmkgjuanda/assets/css/carousel.cuaca.css" rel="stylesheet">
     </head>
     <!-- END HEAD -->

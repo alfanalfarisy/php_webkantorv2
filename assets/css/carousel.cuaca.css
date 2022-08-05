@@ -1,97 +1,9 @@
-.cuaca-flex {
+/* .cuaca-flex {
   display: flex;
   flex-wrap: wrap;
-}
-body {
-  color: aliceblue;
-}
+} */
 
-.cuaca-flex-child {
-  flex-basis: 25%;
-  flex-grow: 1;
-  padding: 1px;
-}
-
-@media (min-width: 992px) {
-  .prakicu-kota .service-block {
-    min-height: 205px;
-  }
-}
-
-@media (max-width: 991px) {
-  .cuaca-flex-child {
-    flex-basis: 33.33333333%;
-  }
-}
-
-@media (max-width: 478px) {
-  .cuaca-flex-child {
-    flex-basis: 100%;
-  }
-}
-
-/* prkicu kota */
-.prakicu-kota h2,
-.prakicu-kota p {
-  z-index: 1;
-  position: relative;
-}
-
-.prakicu-kota.bg-cuaca,
-.prakicu-kota .bg-cuaca {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  position: relative;
-}
-
-.prakicu-kota.bg-cuaca:before,
-.prakicu-kota .bg-cuaca:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
-  background-image: -webkit-linear-gradient(
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.3)
-  );
-}
-
-.prakicu-kota .wi {
-  font-size: 22px;
-  margin-right: 3px;
-  position: relative;
-  top: 3px;
-}
-
-.prakicu-kota .wi-direction-up {
-  color: orange;
-}
-
-.prakicu-kota .wi-direction-down {
-  color: #3bb5ff;
-}
-
-.prakicu-kota .wi-raindrop {
-  color: #9cd1ff;
-}
-
-.prakicu-kota .wi-strong-wind {
-  color: #ffce19;
-}
-
-.prakicu-kota .wi-wind,
-.prakicu-kota .wi-refresh {
-  color: #ffce19;
-  font-size: 26px;
-  top: 5px;
-}
-
+/* 
 /* BG Cuaca */
 .udara-kabur-siang,
 .udara-kabur {
@@ -211,27 +123,3 @@ body {
 }
 
 /* kanan */
-
-@media (max-width: 478px) {
-  .col-flex {
-    width: 100%;
-  }
-
-  .kiri {
-    float: left;
-    width: 40%;
-    padding: 0 10px;
-  }
-
-  .kanan {
-    float: right;
-    width: 60%;
-    text-align: left;
-    padding: 0 10px;
-  }
-}
-
-.heading-md {
-  font-size: 24px;
-  line-height: 24px;
-}

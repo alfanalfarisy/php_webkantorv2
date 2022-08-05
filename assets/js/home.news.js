@@ -37,19 +37,18 @@ $.ajax({
         </article>
         `;
     });
-    $("#newsContainer").html(htmlForNews);
+    $("#carouselNews").html(htmlForNews);
 
-    // $(".owl-carousel").owlCarousel({
-    //   autoplay: true,
-    //   rewind: true /* use rewind if you don't want loop */,
-    //   margin: 20,
-    //   items: 1,
-    //   responsiveClass: true,
-    //   autoHeight: true,
-    //   autoplayTimeout: 4000,
-    //   smartSpeed: 800,
-    //   nav: true,
-    // });
+    $("#carouselNews").owlCarousel({
+      autoplay: true,
+      rewind: true /* use rewind if you don't want loop */,
+      margin: 20,
+      items: 1,
+      responsiveClass: true,
+      autoHeight: true,
+      autoplayTimeout: 4000,
+      smartSpeed: 800,
+    });
   },
   error: function () {
     alert("Failed!");
