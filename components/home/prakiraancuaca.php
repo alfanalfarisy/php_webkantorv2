@@ -7,41 +7,24 @@
             </div> -->
             <div class="row gy-4">
                 <!-- GAMBAR -->
-                <div class="col-lg-4">
+                <div class="col-lg-8">
                     <div class="headline">
                         <h4>Cuaca Terkini</h4>
                     </div>
-                    <div class="card-prakiraan-cuaca">
-                        <div class="row mb-2" style="padding-left: 10px; padding-right: 10px;">
-                            <select name="selectKab" id="selectKab" class="form-select form-select-sm col-md dropdown-select-carousel-cuaca" onchange="kabupatenSelected()"></select>
-                            <select name="selectKec" id="selectKec" class="form-select form-select-sm col-md dropdown-select-carousel-cuaca" onchange="kecamatanSelected()"></select>
-                            <select name="selectDate" id="selectDate" class="form-select form-select-sm col-md dropdown-select-carousel-cuaca" onchange="dateSelected()"></select>
-                        </div>
-                        <div id="prakicuWrapper" class="d-flex justify-content-center">
-                            <div class="owl-carousel" id="prakicu"></div>
-                        </div>
+                    <div class="card-gempa">
+                        <div id="map" style="height:100%"></div>
                     </div>
                 </div>
 
 
 
-                <div class="col-lg-4">
-                    <div class="headline">
-                        <h4>Cuaca Terkini</h4>
-                    </div>
-                    <div class="card-prakiraan-cuaca">
-                        <div class="owl-carousel" id="prakicu">
-
-                        </div>
-                    </div>
-                </div>
 
 
                 <div class="col-lg-4">
                     <div class="headline">
                         <h4>Gempabumi Terkini</h4>
                     </div>
-                    <div class="card-prakiraan-cuaca">
+                    <div class="card-gempa">
                         <div class="row">
                             <div class="col-md-6  col-6">
                                 <a href="https://ews.bmkg.go.id/tews/data/20220805004315.mmi.jpg" class="fancybox img-hover-v1" rel="gallery1" title="Gempabumi Terkini">

@@ -17,21 +17,22 @@
 
 
     <!-- ======= PERINGATAN DINI ======= -->
-    <section id="peringatandini-details" class="peringatandini-details">
+    <section id="peringatandini-details" class="peringatandini-details peringatan-dini-home">
         <div class="container">
             <div class="row gy-4">
-                <section id="alert" class="alert">
-                    <div class="container col-lg-10" data-aos="zoom-in">
-                        <div class="text-center">
-                            <h3>Peringatan Dini
-                            </h3>
-                            <p id="warningListTgl"></p>
-                            <p>
-                            <div id="warninglist"></div>
-                            </p>
-                        </div>
+                <div class="peringatan-dini-home-head col-md-2 no-padding">
+                    <h4><span></span>Peringatan Dini</h4>
+                </div>
+                <div id="alert" class="alert  col-md-10">
+
+                    <div class="text-center">
+                        <p id="warningListTgl"></p>
+                        <p>
+                        <div id="warninglist"></div>
+                        </p>
                     </div>
-                </section>
+
+                </div>
             </div>
         </div>
     </section>

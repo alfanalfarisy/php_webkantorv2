@@ -164,7 +164,7 @@ function kecamatanSelected() {
       $("#loading").remove();
       $("#prakicu").append(allkota.join(""));
       $("#prakicu").owlCarousel({
-        autoplay: true,
+        // autoplay: true,
         rewind: true /* use rewind if you don't want loop */,
         margin: 5,
         items: 3,
@@ -253,7 +253,7 @@ function dateSelected() {
   $("#loading").remove();
   $("#prakicu").append(allkota.join(""));
   $("#prakicu").owlCarousel({
-    autoplay: true,
+    // autoplay: true,
     rewind: true /* use rewind if you don't want loop */,
     margin: 5,
     items: 3,
@@ -377,7 +377,7 @@ function initiate() {
       $("#loading").remove();
       $("#prakicu").append(allkota.join(""));
       $("#prakicu").owlCarousel({
-        autoplay: true,
+        // autoplay: true,
         rewind: true /* use rewind if you don't want loop */,
         margin: 5,
         items: 3,

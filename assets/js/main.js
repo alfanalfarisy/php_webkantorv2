@@ -270,3 +270,4 @@
     },
   });
 })();
+$(".leaflet-control-attribution").hide();

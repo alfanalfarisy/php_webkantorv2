@@ -37,7 +37,9 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js" crossorigin="anonymous"
     referrerpolicy="no-referrer"></script>
-
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+    integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+    crossorigin=""></script>
 <!-- <script src="../../assets/vendor/purecounter/purecounter.js"></script> -->
 <!-- <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
 <!-- <script src="../../assets/vendor/glightbox/js/glightbox.min.js"></script> -->

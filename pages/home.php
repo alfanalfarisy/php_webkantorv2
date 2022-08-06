@@ -12,6 +12,7 @@ require('../layout/navbar/index.php')
     <?php require('../components/home/peringatandini.php') ?>
     <?php require('../components/home/prakiraancuaca.php') ?>
     <?php require('../components/home/services.php') ?>
+    <?php require('../components/home/banner.php') ?>
     <?php require('../components/home/contact.php') ?>
 
 </main>
