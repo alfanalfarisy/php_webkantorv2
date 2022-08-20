@@ -1,6 +1,8 @@
 body {
   font-family: "Poppins";
   color: #5a656e;
+  min-height: 100vh;
+  position: relative;
 }
 a {
   color: #2c4964;
@@ -24,7 +26,7 @@ HEADER
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  z-index: 997;
+  z-index: 1111;
   transition: all 0.5s;
   height: 60px;
   background: #fff;
@@ -562,10 +564,21 @@ SERVICES
 /*--------------------------------------------------------------
 CONTACT
 --------------------------------------------------------------*/
+
+#contact {
+  padding-bottom: 100px;
+  /* background: #2c4964; */
+  /* color: #fff; */
+}
 .contact .info-wrap {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
 }
+
+/* .contact a {
+  color: #fff;
+  text-decoration: none;
+} */
 .contact .info {
   background: #fff;
 }
@@ -689,6 +702,9 @@ CONTACT
 FOOTER
 --------------------------------------------------------------*/
 #footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   background: #2c4964;
   padding: 24px 0;
   font-size: 14px;
