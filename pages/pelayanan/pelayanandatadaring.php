@@ -1,6 +1,6 @@
 <?php
-require('../../layout/header/index.php');
-require('../../layout/navbar/index.php')
+require('../../layout/header.php');
+require('../../layout/navbar.php')
 ?>
 
 
@@ -9,7 +9,7 @@ require('../../layout/navbar/index.php')
     <section>
         <div class="container">
 
-            <div class="card p-4">
+            <div class="card p-4 box-shadow">
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="mb-5 mb-lg-0 mb-lg-3" onclick="window.open('formulir.php?pilihan=1');" style="">
@@ -41,12 +41,12 @@ require('../../layout/navbar/index.php')
     </section>
 
 </main>
-<?php require('../../layout/footer/index.php') ?>
+<?php require('../../layout/footer.php') ?>
 
 
 
 <?php
 
-require('../../layout/js/assets.php');
-require('../../layout/js/js.php');
+require('../../layout/libraryJs.php');
+
 ?>

@@ -571,11 +571,7 @@ SERVICES
 CONTACT
 --------------------------------------------------------------*/
 
-#contact {
-  padding-bottom: 100px;
-  /* background: #2c4964; */
-  /* color: #fff; */
-}
+
 .contact .info-wrap {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
@@ -851,4 +847,11 @@ FOOTER
 
 .peringatan-dini-home-bg strong {
   display: block;
+}
+
+
+.box-shadow{
+  box-shadow: 1px 2px 24px -7px rgba(0,0,0,0.38);
+-webkit-box-shadow: 1px 2px 24px -7px rgba(0,0,0,0.38);
+-moz-box-shadow: 1px 2px 24px -7px rgba(0,0,0,0.38);
 }

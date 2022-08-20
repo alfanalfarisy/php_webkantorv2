@@ -1,6 +1,6 @@
 <?php
-require('../../layout/header/index.php');
-require('../../layout/navbar/index.php')
+require('../../layout/header.php');
+require('../../layout/navbar.php')
 ?>
 
 
@@ -9,12 +9,12 @@ require('../../layout/navbar/index.php')
 
 
 </main>
-<?php require('../../layout/footer/index.php') ?>
+<?php require('../../layout/footer.php') ?>
 
 
 
 <?php
 
-require('../../layout/js/assets.php');
-require('../../layout/js/js.php');
+require('../../layout/libraryJs.php');
+
 ?>

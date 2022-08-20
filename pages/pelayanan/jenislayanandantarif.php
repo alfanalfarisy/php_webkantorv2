@@ -1,6 +1,6 @@
 <?php
-require('../../layout/header/index.php');
-require('../../layout/navbar/index.php')
+require('../../layout/header.php');
+require('../../layout/navbar.php')
 ?>
 
 
@@ -9,12 +9,16 @@ require('../../layout/navbar/index.php')
 
 
 </main>
-<?php require('../../layout/footer/index.php') ?>
 
 
+<section>
+    <div class="container ">
+        <div class="card p-4 box-shadow">
+            <img src="/bmkgjuanda/assets/img/pelayanan/tarif.jpeg" alt="" class="rounded mx-auto d-block" >
+        </div>
 
-<?php
+    </div>
+</section>
 
-require('../../layout/js/assets.php');
-require('../../layout/js/js.php');
-?>
+<?php require('../../layout/footer.php') ?>
+<?php require('../../layout/libraryJs.php') ?>

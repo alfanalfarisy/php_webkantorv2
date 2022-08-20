@@ -119,7 +119,7 @@
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-sb-admin-2/4.1.4/css/sb-admin-2.css" integrity="sha512-gOfBez3ehpchNxj4TfBZfX1MDLKLRif67tFJNLQSpF13lXM1t9ffMNCbZfZNBfcN2/SaWvOf+7CvIHtQ0Nci2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -132,7 +132,7 @@
                 <!-- Nested Row within Card Body -->
                 <div class="row">
                     <div class="col-lg-5 d-none d-lg-block"
-                        style="background-image: url('images/pemohon.jpg');background-position:center;background-size:cover">
+                        style="background-image: url('/bmkgjuanda/assets/img/pelayanandatadaringinput/BG_datadaringinput.jpg');background-position:center;background-size:cover">
                     </div>
                     <div class="col-lg-7">
                         <div class="p-5">
@@ -247,14 +247,10 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js" rel="stylesheet"></script>
-
-    <!-- Core plugin JavaScript-->
-    <script src="js/jquery.easing.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-sb-admin-2/4.1.4/js/sb-admin-2.js" integrity="sha512-M82XdXhPLLSki+Ld1MsafNzOgHQB3txZr8+SQlGXSwn6veeqtYhPLbQeAfk9Y/Q9/gXcfa1jWT4YYUeoei6Uow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
     function tutup() {
         document.getElementById('keperluan').disabled = true;

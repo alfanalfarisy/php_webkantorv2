@@ -1,6 +1,6 @@
 <?php
-require('../../layout/header/index.php');
-require('../../layout/navbar/index.php')
+require('../../layout/header.php');
+require('../../layout/navbar.php')
 ?>
 
 
@@ -15,8 +15,7 @@ require('../../layout/navbar/index.php')
                     <h4>SUMBER DAYA MANUSIA</h4>
                     <p> STAF KARYAWAN/ KARYAWATI BMKG JUANDA SIDOARJO</p>
                 </div>
-                <div class="d-inline-flex flex-row justify-content-around" style="  display: flex;  
-  flex-wrap: wrap;" id="sdm_div">
+                <div class="d-inline-flex flex-row justify-content-around" style="display: flex;flex-wrap: wrap;" id="sdm_div">
 
 
                 </div>
@@ -28,20 +27,20 @@ require('../../layout/navbar/index.php')
 
 
 </main>
-<?php require('../../layout/footer/index.php') ?>
+<?php require('../../layout/footer.php') ?>
 
 
 
 <?php
-require('../../layout/js/assets.php');
+require('../../layout/libraryJs.php');
 ?>
 
 <script>
-$.getJSON('../../data/pegawai.json', data => {
+    $.getJSON('../../data/pegawai.json', data => {
 
-    let html = ''
-    data.map(item => {
-        html += ` <div class="card mb-2" style="width: 13rem;">
+        let html = ''
+        data.map(item => {
+            html += ` <div class="card mb-2" style="width: 13rem;">
                         <img src='/bmkgjuanda/assets/img/foto_pegawai/${item.GAMBAR}'
                             class="card-img-top" height="250px" alt="...">
                         <div class="card-body">
@@ -50,9 +49,9 @@ $.getJSON('../../data/pegawai.json', data => {
                             <a href="#" class="btn btn-primary">${item.NAMA_UNIT}</a>
                         </div>
                     </div>`
+        })
+
+        $('#sdm_div').html(html)
+
     })
-
-    $('#sdm_div').html(html)
-
-})
 </script>
