@@ -1,6 +1,6 @@
 <?php
-require('../../layout/header.php');
-require('../../layout/navbar.php')
+require('../../../layout/header.php');
+require('../../../layout/navbar.php')
 ?>
 
 <main id="main">
@@ -67,9 +67,9 @@ require('../../layout/navbar.php')
 
 
 </main>
-<?php require('../../layout/footer.php') ?>
+<?php require('../../../layout/footer.php') ?>
 
-<?php require('../../layout/libraryJs.php') ?>
+<?php require('../../../layout/libraryJs.php') ?>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 
 <script>

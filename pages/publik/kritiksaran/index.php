@@ -1,5 +1,5 @@
-<?php require('../../layout/header.php') ?>
-<?php require('../../layout/navbar.php') ?>
+<?php require('../../../layout/header.php') ?>
+<?php require('../../../layout/navbar.php') ?>
 
 <script src='https://www.google.com/recaptcha/api.js'></script>
 
@@ -62,8 +62,8 @@
 </main>
 
 
-<?php require('../../layout/footer.php') ?>
-<?php require('../../layout/libraryJs.php') ?>
+<?php require('../../../layout/footer.php') ?>
+<?php require('../../../layout/libraryJs.php') ?>
 
 
 

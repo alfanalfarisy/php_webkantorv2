@@ -1,6 +1,6 @@
 <?php
-require('../../layout/header.php');
-require('../../layout/navbar.php')
+require('../../../layout/header.php');
+require('../../../layout/navbar.php')
 
 ?>
 
@@ -52,12 +52,12 @@ require('../../layout/navbar.php')
     </section>
 
 </main>
-<?php require('../../layout/footer.php') ?>
+<?php require('../../../layout/footer.php') ?>
 
 
 
 <?php
-require('../../layout/libraryJs.php');
+require('../../../layout/libraryJs.php');
 ?>
 
 <script src="https://www.gstatic.com/charts/loader.js"></script>
