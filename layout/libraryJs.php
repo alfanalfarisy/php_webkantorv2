@@ -23,8 +23,11 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin="">
-
-
-</script>
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/4.0.9/fxparser.js"
+  integrity="sha512-53HyVymh+n8HTeZ6ND4oQ+yWHxupmItxAybc5lesv8CsPvyjRijNy8fOCw3Lg/IVv7OTDkIjGRwa78Jv2EQT/A=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
 <script src="/bmkgjuanda/assets/js/navbar.js"></script>

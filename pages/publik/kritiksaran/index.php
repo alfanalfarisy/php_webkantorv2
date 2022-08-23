@@ -70,12 +70,13 @@
 <script>
     $(document).ready(function(e) {
         $("#contact-form").on('submit', (function(e) {
+  
             e.preventDefault();
             $("#mail-status").hide();
             $('#btn_submit').show();
             $('#loader-icon').show();
             $.ajax({
-                url: "kritiksaran.php",
+                url: "/bmkgjuanda/pages/publik/kritiksaran/inputhandle.php",
                 type: "POST",
                 dataType: 'json',
                 data: {
@@ -86,19 +87,20 @@
                     "message": $('textarea[name="message"]').val(),
                     "g-recaptcha-response": $('textarea[id="g-recaptcha-response"]').val()
                 },
-                success: function(response) {
+                success: function(response) {         
                     $("#mail-status").show();
                     $('#loader-icon').hide();
+                    console.log(response)
                     if (response.type == "error") {
-                        $('#btn_submit').show();
-                        $("#mail-status").attr("class", "error");
+                        alert('Periksa Input Data')
                     } else if (response.type == "message") {
-                        $('#btn_submit').hide();
-                        $("#mail-status").attr("class", "success");
+                        alert('Kritik dan saran')
                     }
                     $("#mail-status").html(response.text);
                 },
-                error: function() {}
+                error: function(error) {
+                    console.log('error')
+                }
             });
         }));
     });

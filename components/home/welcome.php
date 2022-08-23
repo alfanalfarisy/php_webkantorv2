@@ -9,9 +9,7 @@
                             <h2>Selamat Datang di <br> BMKG Juanda</h2>
                             <h6>Cepat, Tepat, Akurat, Luas, dan Mudah Dipahami</h6>
                             <br>
-                            <div><a href="https://s.id/infobmkgjuanda" target="_blank"><img
-                                        src="/bmkgjuanda/assets/img/playstore.png" width="200px" alt="playstore"
-                                        class="img-responsive"></a></div>
+                            <div><a href="https://s.id/infobmkgjuanda" target="_blank"><img src="/bmkgjuanda/assets/img/playstore.png" width="200px" alt="playstore" class="img-responsive"></a></div>
                         </div>
 
                     </div>
@@ -20,13 +18,14 @@
                         <div class="row justify-items-end" style="height: 100%;">
 
                             <div class="col-3">
-                                <button class="btn-menu-welcome"><span>Radar Jatim</span></button>
+                                <a href="https://juanda.jatim.bmkg.go.id/radar"><button class="btn-menu-welcome"><span>Radar Jatim</span></button></a>
                             </div>
                             <div class="col-5">
-                                <button class="btn-menu-welcome"><span>Peringatan Dini Jatim</span></button>
+                                <a href="/bmkgjuanda/pages/peringatan/jatim.php"><button class="btn-menu-welcome"><span>Peringatan Dini Jatim</span></button>
+                                </a>
                             </div>
                             <div class="col-4">
-                                <button class="btn-menu-welcome no-border"><span>Cuaca Wisata</span></button>
+                                <a href="/bmkgjuanda/pages/peringatan/wisata.php"><button class="btn-menu-welcome no-border"><span>Cuaca Wisata</span></button></a>
                             </div>
 
                         </div>
@@ -40,15 +39,9 @@
                     </div>
                     <div class="card-carousel-cuaca">
                         <div class="row mb-2" style="padding-left: 10px; padding-right: 10px;">
-                            <select name="selectKab" id="selectKab"
-                                class="form-select form-select-sm col-md col-xs-4 dropdown-select-carousel-cuaca"
-                                onchange="kabupatenSelected()"></select>
-                            <select name="selectKec" id="selectKec"
-                                class="form-select form-select-sm col-md col-xs-4 dropdown-select-carousel-cuaca"
-                                onchange="kecamatanSelected()"></select>
-                            <select name="selectDate" id="selectDate"
-                                class="form-select form-select-sm col-md col-xs-4 dropdown-select-carousel-cuaca"
-                                onchange="dateSelected()"></select>
+                            <select name="selectKab" id="selectKab" class="form-select form-select-sm col-md col-xs-4 dropdown-select-carousel-cuaca" onchange="kabupatenSelected()"></select>
+                            <select name="selectKec" id="selectKec" class="form-select form-select-sm col-md col-xs-4 dropdown-select-carousel-cuaca" onchange="kecamatanSelected()"></select>
+                            <select name="selectDate" id="selectDate" class="form-select form-select-sm col-md col-xs-4 dropdown-select-carousel-cuaca" onchange="dateSelected()"></select>
                         </div>
                         <div id="prakicuWrapper" class="d-flex justify-content-center">
                             <div class="owl-carousel" id="prakicu"></div>

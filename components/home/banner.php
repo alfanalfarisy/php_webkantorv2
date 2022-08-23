@@ -7,7 +7,7 @@
             </div> -->
             <div class="row gy-4">
                 <!-- GAMBAR -->
-                <div class="col-lg-8">
+                <div class="col-lg-7">
                     <div class="headline text-center">
                         <h4>Banner</h4>
                     </div>
@@ -46,7 +46,7 @@
                 </div>
 
 
-                <div class="col-lg-4">
+                <div class="col-lg-5">
                     <div class="headline text-center">
                         <h4>Zona Intregitas</h4>
                     </div>

@@ -2,7 +2,7 @@ $("#carouselZi").owlCarousel({
   autoplay: true,
   rewind: true /* use rewind if you don't want loop */,
   margin: 20,
-  items: 1,
+  items: 2,
   responsiveClass: true,
   autoHeight: true,
   autoplayTimeout: 4000,

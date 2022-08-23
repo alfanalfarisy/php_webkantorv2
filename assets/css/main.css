@@ -523,6 +523,7 @@ SERVICES
 .services .icon-box:hover {
   transform: translateY(-5px);
   border-color: #104120;
+  background-color: #4287f5;
 }
 .services .icon i {
   font-size: 48px;

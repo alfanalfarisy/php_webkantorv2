@@ -96,10 +96,10 @@ function loadbuletin(id) {
                 $("#judul").text(result[0].judul);
                 $("#isi").text(result[0].isi);
                 $("#penulis").text(result[0].penulis);
-                $("#file").attr("href", "manage/file/" + result[0].file);
+                $("#file").attr("href", "/bmkgjuanda/data/buletin/" + result[0].file);
                 $("#embed").attr("src", "https://docs.google.com/gview?url=" +
                     document.URL.substr(0, document.URL.lastIndexOf('/')) +
-                    "/manage/file/" + result[0].file + "&embedded=true");
+                    "bmkgjuanda/data/buletin/" + result[0].file + "&embedded=true");
             }
             for (i = 0; i < result.length; i++) {
                 listbuletin.push(
@@ -112,10 +112,10 @@ function loadbuletin(id) {
                     $("#judul").text(result[i].judul);
                     $("#isi").text(result[i].isi);
                     $("#penulis").text(result[i].penulis);
-                    $("#file").attr("href", "manage/file/" + result[i].file);
+                    $("#file").attr("href", "/bmkgjuanda/data/buletin/" + result[i].file);
                     $("#embed").attr("src", "https://docs.google.com/gview?url=" +
                         document.URL.substr(0, document.URL.lastIndexOf('/')) +
-                        "/manage/file/" + result[i].file + "&embedded=true");
+                        "bmkgjuanda/data/buletin/" + result[i].file + "&embedded=true");
                 }
             }
             $("#listbuletin").append(listbuletin.join(''));

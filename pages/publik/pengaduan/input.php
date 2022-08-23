@@ -87,7 +87,7 @@ require('../../../layout/navbar.php')
             $('#btn_submit').hide();
             $('#loader-icon').show();
             $.ajax({
-                url: "whistle.php",
+                url: "/bmkgjuanda/pages/publik/pengaduan/input.php",
                 type: "POST",
                 enctype: 'multipart/form-data',
                 data: formData,

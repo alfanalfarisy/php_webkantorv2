@@ -5,6 +5,7 @@
   <script src="/bmkgjuanda/assets/js/home/carousel.banner.js"></script>
   <script src="/bmkgjuanda/assets/js/home/carousel.zi.js"></script>
   <script src="/bmkgjuanda/assets/js/home/card.warning.js"></script>
+  <script src="/bmkgjuanda/assets/js/home/card.gempa.js"></script>
   <script src="/bmkgjuanda/assets/js/home/leaflet.cuacaterkini.js"></script>
 
   </body>

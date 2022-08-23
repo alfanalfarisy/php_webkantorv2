@@ -1,12 +1,13 @@
 <?php
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-use PHPMailer\PHPMailer\SMTP;
-
 require_once 'mail/Exception.php';
 require_once 'mail/PHPMailer.php';
 require_once 'mail/SMTP.php';
 require_once 'conf/cfg.php';
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\SMTP;
+
 
 function kirim($tujuan, $nama, $judul, $isi, $eviden)
 {
