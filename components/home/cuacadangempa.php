@@ -1,5 +1,5 @@
     <!-- ======= PRAKIRAAN CUACA ======= -->
-    <section id="contents-details" class="contents-details">
+    <section id="" class="">
         <div class="container">
             <!-- JUDUL -->
             <!-- <div class="section-title">
@@ -27,19 +27,24 @@
                     <div class="card-gempa">
                         <div class="row">
                             <div class="col-md-6  col-6">
-                                <a href="https://ews.bmkg.go.id/tews/data/20220805004315.mmi.jpg" class="fancybox img-hover-v1" rel="gallery1" title="Gempabumi Terkini">
-                                    <img class="img-fluid" src="https://ews.bmkg.go.id/tews/data/20220805004315.mmi.jpg" alt="">
+                                <a href="https://ews.bmkg.go.id/tews/data/20220805004315.mmi.jpg"
+                                    class="fancybox img-hover-v1" rel="gallery1" title="Gempabumi Terkini">
+                                    <img class="img-fluid" src="https://ews.bmkg.go.id/tews/data/20220805004315.mmi.jpg"
+                                        alt="">
                                 </a>
                             </div>
                             <div class="col-md-6  col-6 gempabumi-detail no-padding">
                                 <ul class="list-unstyled">
-                                    <li><span class="waktu"><span id="Tanggal"></span>, <span id="Jam"></span></span></li>
+                                    <li><span class="waktu"><span id="Tanggal"></span>, <span id="Jam"></span></span>
+                                    </li>
                                     <li><span class="ic magnitude"></span><span id="Magnitude"></span></li>
                                     <li><span class="ic kedalaman"></span><span id="Kedalaman"></span></li>
                                     <li><span class="ic koordinat"></span><span id="Dirasakan"></span></li>
                                     <li><span class="ic lokasi"></span><span id="Wilayah"></span></li>
                                     <li><span class="ic tsunami"></span><span id="Potensi"></span></li>
-                                    <li><a class="more" href="https://www.bmkg.go.id/gempabumi-dirasakan.html">Selengkapnya →</a></li>
+                                    <li><a class="more"
+                                            href="https://www.bmkg.go.id/gempabumi-dirasakan.html">Selengkapnya →</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

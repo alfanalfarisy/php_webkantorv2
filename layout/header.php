@@ -38,7 +38,7 @@
             integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
             integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
-        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
         <link href='https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.min.css"
             integrity="sha512-T3xwtELy3dqQUajk2sl4V6x/VnT+WbXgAKIu/Go7L6oDDWf4A5dJbG49vKn0am3dTNh/KHAbU2+4Ih2vVioxSg=="
@@ -54,12 +54,19 @@
             integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
             crossorigin="" />
         <!-- moment -->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
         <!-- MAIN CSS FILE -->
         <link href="/bmkgjuanda/assets/css/main.css" rel="stylesheet">
+        <link href="/bmkgjuanda/assets/css/layout.navbar.css" rel="stylesheet">
         <link href="/bmkgjuanda/assets/css/carousel.news.css" rel="stylesheet">
         <link href="/bmkgjuanda/assets/css/carousel.cuaca.css" rel="stylesheet">
         <link href="/bmkgjuanda/assets/css/card.gempaterkini.css" rel="stylesheet">
+        <link href="/bmkgjuanda/assets/css/section.peringatandini.css" rel="stylesheet">
+        <link href="/bmkgjuanda/assets/css/section.service.css" rel="stylesheet">
+        <link href="/bmkgjuanda/assets/css/section.contact.css" rel="stylesheet">
+        <link href="/bmkgjuanda/assets/css/section.footer.css" rel="stylesheet">
+        <link href="/bmkgjuanda/assets/css/section.welcome.css" rel="stylesheet">
     </head>
     <!-- END HEAD -->
 

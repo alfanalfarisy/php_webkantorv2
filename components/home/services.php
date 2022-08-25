@@ -22,7 +22,7 @@
                 <div class="col-md-6 col-xs-6 col-6 col-lg-3 d-flex align-items-stretch  mb-lg-0">
                     <a href="/bmkgjuanda/pages/layanan/angin.php" class="link-iconbox">
                         <div class="icon-box">
-                            <div class="icon"><i class="bx bxs-plane-alt"></i></div>
+                            <div class="icon"><i class="bx bx-wind"></i></div>
                             <h4 class="title">Angin</h4>
                             <p class="description">Memuat informasi analisis angin dan prakiraan angin serta informasi
                                 lainnya.</p>
