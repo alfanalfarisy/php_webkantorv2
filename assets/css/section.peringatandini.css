@@ -66,3 +66,53 @@
 .peringatan-dini-home-bg strong {
   display: block;
 }
+
+
+
+/*--------------------------------------------------------------
+ALERT
+--------------------------------------------------------------*/
+.alert {
+  background: #ffc400;
+  background-size: cover;
+  padding: 17px 0;
+  height: 100%;
+}
+@media (max-width: 576px) {
+  .alert {
+    margin-top: 0; height: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .alert {
+    padding: 17px 0;   margin-bottom: 0; 
+  
+  }
+}
+.alert h3 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.alert p {
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+}
+.alert .alert-btn {
+  font-family: "Raleway", Poppins;
+  font-weight: 500;
+  font-size: 9px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 35px;
+
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.alert .alert-btn:hover {
+  background: #ff7f5d;
+  border: 2px solid #ff7f5d;
+}
