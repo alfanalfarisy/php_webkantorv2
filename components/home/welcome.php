@@ -17,7 +17,7 @@
                                     <h6>Media (Video WBBM)</h6>
                                 </div>
                                 <i class='bx bx-play-circle play-media'></i>
-                                <a href="" target="_blank"><img src="/bmkgjuanda/assets/img/media.jpeg" width="100%"
+                                <a href="https://www.youtube.com/watch?v=udOySvTWfpw&ab_channel=InfoBMKGJuanda" target="_blank"><img src="/bmkgjuanda/assets/img/media.jpeg" width="100%"
                                         alt="playstore" class="img-responsive"></a>
 
                             </div>

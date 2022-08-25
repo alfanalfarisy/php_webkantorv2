@@ -15,9 +15,9 @@ let dataFind = [
 $(document).ready(function () {
   $.ajax({
     type: "GET",
-    url: "/bmkgjuanda/data/autogempa.xml",
+    url: "https://data.bmkg.go.id/DataMKG/TEWS/autogempa.json",
     crossDomain: true,
-    dataType: "xml",
+    dataType: "JSON",
     headers: {
       accept: "application/json",
       "Access-Control-Allow-Origin": "*",
@@ -25,20 +25,16 @@ $(document).ready(function () {
     success: (item) => {
       let data = {};
 
-      $(item)
-        .find("gempa")
-        .each(function () {
-          dataFind.forEach((item) => {
-            data[item] = $(this).find(item).text();
-            $(`#${item}`).html($(this).find(item).text());
-            if (item == "Potensi") {
-              $(`#Potensi1`).html($(this).find(item).text());
-            }
-            if (item == "Wilayah") {
-              $(`#Wilayah1`).html($(this).find(item).text());
-            }
-          });
-        });
+      dataFind.forEach((item) => {
+        $(`#${item}`).html($(this).find(item).text());
+        if (item == "Potensi") {
+          $(`#Potensi1`).html($(this).find(item).text());
+        }
+        if (item == "Wilayah") {
+          $(`#Wilayah1`).html($(this).find(item).text());
+        }
+      });
+
       console.log(data);
     },
   });

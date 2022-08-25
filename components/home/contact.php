@@ -61,6 +61,7 @@
                <i class="bi bi-clock"> 	Senin - Jumat 08.00 - 16.00</i>
              </div>
              <hr>
+             <div id="histats_counter"></div>
            </div>
            <div class="social-links align-items-center mt-3">
              <div class="d-flex align-items-center mt-1">
@@ -74,6 +75,7 @@
              <a href="https://www.facebook.com/infobmkgjuanda" class="facebook"><i class="bi bi-facebook"></i></a>
            </h5>
            </div>
+           
          </div>
          <!-- KONTAK KAMI -->
          <div class= "col-lg-4 col-md-8">

@@ -116,3 +116,12 @@ ALERT
   background: #ff7f5d;
   border: 2px solid #ff7f5d;
 }
+
+
+.card-carousel-cuaca p{
+  color:white
+}
+
+.card-carousel-cuaca h2{
+  color:white
+}

@@ -31,3 +31,4 @@
   referrerpolicy="no-referrer"
 ></script>
 <script src="/bmkgjuanda/assets/js/navbar.js"></script>
+<script src="/bmkgjuanda/assets/js/histat.js"></script>

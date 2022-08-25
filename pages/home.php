@@ -12,8 +12,13 @@ require('../layout/navbar.php')
     <?php require('../components/home/banner.php') ?>
     <?php require('../components/home/peringatandini.php') ?>
     <?php require('../components/home/cuacadangempa.php') ?>
+    <?php require('../components/home/bannerbesar.php') ?>
     <?php require('../components/home/services.php') ?>
     <?php require('../components/home/contact.php') ?>
+ 
+
+
+ 
 
 </main>
 <?php require('../layout/footer.php') ?>
