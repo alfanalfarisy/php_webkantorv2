@@ -15,23 +15,23 @@ let dataFind = [
 $(document).ready(function () {
   $.ajax({
     type: "GET",
-    url: "https://data.bmkg.go.id/DataMKG/TEWS/autogempa.json",
+    url: "https://juanda.jatim.bmkg.go.id/flask/api/gempa/terkini",
     crossDomain: true,
     dataType: "JSON",
     headers: {
       accept: "application/json",
       "Access-Control-Allow-Origin": "*",
     },
-    success: (item) => {
+    success: (results) => {
       let data = {};
 
       dataFind.forEach((item) => {
-        $(`#${item}`).html($(this).find(item).text());
+        $(`#${item}`).html(results.Infogempa.gempa[item]);
         if (item == "Potensi") {
-          $(`#Potensi1`).html($(this).find(item).text());
+          $(`#Potensi1`).html(results.Infogempa.gempa[item]);
         }
         if (item == "Wilayah") {
-          $(`#Wilayah1`).html($(this).find(item).text());
+          $(`#Wilayah1`).html(results.Infogempa.gempa[item]);
         }
       });
 

@@ -15,7 +15,7 @@ require('../../../layout/navbar.php')
                         <h2><span class="color_red">Whistleblowing</span> System</h2>
                         <p>Apabila anda melihat atau mengetahui dugaan <span class="color_red">Tindak Pidana Korupsi</span> yang dilakukan pegawai BMKG. Silahkan melapor menggunakan isian ini. Jika laporan anda memenuhi syarat/kriteria, maka akan diproses lebih lanjut.</p>
                     </div>
-                    <form id="contact-form" action="" method="POST" novalidate="novalidate">
+                    <form id="contact-form" action="inputhandle.php" method="post" enctype="multipart/form-data">
                         <div id="result"></div>
 
                         <div class="mb-3">
@@ -54,10 +54,10 @@ require('../../../layout/navbar.php')
                         </div>
                         <p style="text-align:left; width:99%;"><input type="checkbox" id="check_id" value="1" onclick="javascript:benar_cek()" onchange="javascript:benar_cek()" /> <strong style="color:#F00;">Data yang saya berikan benar dan dapat dipertanggungjawabkan</strong></p>
                         <div id="mail-status"></div>
-                        <button type="submit" style="visibility:hidden;" class="btn btn-info " id="btn_submit" name="btn_submit">Submit</button>
+                        <button type="submit" class="btn btn-info " id="btn_submit" name="btn_submit">Submit</button>
                 </div>
                 </form>
-                <div id="loader-icon" style="display:none;"><img src="img/loader.gif" /></div>
+
             </div>
         </div>
 
@@ -72,7 +72,7 @@ require('../../../layout/navbar.php')
 <?php require('../../../layout/libraryJs.php') ?>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 
-<script>
+<!-- <script>
     function benar_cek() {
         if ($('#check_id').is(":checked"))
             document.getElementById("btn_submit").style.visibility = "visible";
@@ -98,11 +98,9 @@ require('../../../layout/navbar.php')
                     $("#mail-status").show();
                     $('#loader-icon').hide();
                     if (response.type == "error") {
-                        $('#btn_submit').show();
-                        $("#mail-status").attr("class", "error");
+                        console.log(response)
                     } else if (response.type == "message") {
-                        $('#btn_submit').hide();
-                        $("#mail-status").attr("class", "success");
+                        console.log(response)
                     }
                     $("#mail-status").html(response.text);
                     //alert(response.text);
@@ -111,4 +109,4 @@ require('../../../layout/navbar.php')
             });
         }));
     });
-</script>
+</script> -->

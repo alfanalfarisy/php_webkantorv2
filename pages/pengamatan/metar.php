@@ -10,7 +10,7 @@ require('../../layout/navbar.php')
     <section>
         <div class="container">
             <div class="card p-4 box-shadow">
-                <div class="speci">
+                <div id="speci">
 
                 </div>
             </div>
@@ -32,12 +32,11 @@ require('../../layout/libraryJs.php');
 
 <script>
     $.ajax({
-        url: "https://juanda.jatim.bmkg.go.id/data/metarspeci.json",
+        url: "https://juanda.jatim.bmkg.go.id/webkantor/data/metarspeci.json",
         dataType: "JSON",
         type: "GET",
         success: function(result) {
-
-            $('#speci').html(data)
+            $('#speci').html(result)
         }
     })
 </script>
