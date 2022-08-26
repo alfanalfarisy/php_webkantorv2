@@ -1,17 +1,30 @@
 <?php
+require('layout/header.php');
+require('layout/navbar.php')
+?>
 
-$request = $_SERVER['REQUEST_URI'];
 
-switch ($request) {
-    case '/' :
-        require __DIR__ . '/pages/home.php';
-        break;
-    case '' :
-        require __DIR__ . '/pages/home.php';
-        break;
-  
-    default:
-        http_response_code(404);
-        require __DIR__ . '/pages/404.php';
-        break;
-}
+
+<main id="main">
+
+    <?php require('layout/components/home/welcome.php') ?>
+    <?php require('layout/components/home/news.php') ?>
+    <?php require('layout/components/home/banner.php') ?>
+    <?php require('layout/components/home/peringatandini.php') ?>
+    <?php require('layout/components/home/cuacadangempa.php') ?>
+    <?php require('layout/components/home/bannerbesar.php') ?>
+    <?php require('layout/components/home/services.php') ?>
+    <?php require('layout/components/home/contact.php') ?>
+
+
+
+
+</main>
+<?php require('layout/footer.php') ?>
+
+
+
+<?php
+require('layout/libraryJs.php');
+require('layout/homeJsLoader.php');
+?>

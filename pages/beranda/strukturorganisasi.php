@@ -10,7 +10,7 @@ require('../../layout/navbar.php')
         <div class="container">
             <div class="card p-4">
 
-                <img class="img-responsive mb-3" src="/bmkgjuanda/assets/img/struktur/struktur.png" height='800px'>
+                <img class="img-responsive mb-3" src="/home/assets/img/struktur/struktur.png" height='800px'>
 
                 <h4>Stasiun Meteorologi Kelas I Juanda dipimpin oleh Kepala Stasiun, dan terdiri atas :</h4>
                 <br>

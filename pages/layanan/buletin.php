@@ -67,66 +67,66 @@ require('../../layout/navbar.php')
 
 
 <script>
-var getUrlParameter = function getUrlParameter(sParam) {
-    var sPageURL = window.location.search.substring(1),
-        sURLVariables = sPageURL.split('&'),
-        sParameterName,
-        i;
+    var getUrlParameter = function getUrlParameter(sParam) {
+        var sPageURL = window.location.search.substring(1),
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
 
-    for (i = 0; i < sURLVariables.length; i++) {
-        sParameterName = sURLVariables[i].split('=');
+        for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
 
-        if (sParameterName[0] === sParam) {
-            return sParameterName[1] === undefined ? true : decodeURIComponent(
-                sParameterName[1]);
-        }
-    }
-};
-
-function loadbuletin(id) {
-    $.ajax({
-        url: "/bmkgjuanda/data/buletin.json",
-        dataType: "JSON",
-        type: "GET",
-        success: function(result) {
-            $("#listbuletin").html("");
-            var listbuletin = [];
-            if (id === undefined) {
-                $("#tanggal").text(result[0].tanggal);
-                $("#judul").text(result[0].judul);
-                $("#isi").text(result[0].isi);
-                $("#penulis").text(result[0].penulis);
-                $("#file").attr("href", "/bmkgjuanda/data/buletin/" + result[0].file);
-                $("#embed").attr("src", "https://docs.google.com/gview?url=" +
-                    document.URL.substr(0, document.URL.lastIndexOf('/')) +
-                    "bmkgjuanda/data/buletin/" + result[0].file + "&embedded=true");
+            if (sParameterName[0] === sParam) {
+                return sParameterName[1] === undefined ? true : decodeURIComponent(
+                    sParameterName[1]);
             }
-            for (i = 0; i < result.length; i++) {
-                listbuletin.push(
-                    '<div class="blog-thumb margin-bottom-10"><div class="blog-thumb-desc"><h3><a href="buletin.php?id=' +
-                    result[i].id + '">' + result[i].judul +
-                    '</a></h3><ul class="blog-thumb-info"><li>' + result[i]
-                    .tanggal + '</li></ul></div></div>');
-                if (result[i].id == id) {
-                    $("#tanggal").text(result[i].tanggal);
-                    $("#judul").text(result[i].judul);
-                    $("#isi").text(result[i].isi);
-                    $("#penulis").text(result[i].penulis);
-                    $("#file").attr("href", "/bmkgjuanda/data/buletin/" + result[i].file);
+        }
+    };
+
+    function loadbuletin(id) {
+        $.ajax({
+            url: "/home/data/buletin.json",
+            dataType: "JSON",
+            type: "GET",
+            success: function(result) {
+                $("#listbuletin").html("");
+                var listbuletin = [];
+                if (id === undefined) {
+                    $("#tanggal").text(result[0].tanggal);
+                    $("#judul").text(result[0].judul);
+                    $("#isi").text(result[0].isi);
+                    $("#penulis").text(result[0].penulis);
+                    $("#file").attr("href", "/home/data/buletin/" + result[0].file);
                     $("#embed").attr("src", "https://docs.google.com/gview?url=" +
                         document.URL.substr(0, document.URL.lastIndexOf('/')) +
-                        "bmkgjuanda/data/buletin/" + result[i].file + "&embedded=true");
+                        "home/data/buletin/" + result[0].file + "&embedded=true");
                 }
+                for (i = 0; i < result.length; i++) {
+                    listbuletin.push(
+                        '<div class="blog-thumb margin-bottom-10"><div class="blog-thumb-desc"><h3><a href="buletin.php?id=' +
+                        result[i].id + '">' + result[i].judul +
+                        '</a></h3><ul class="blog-thumb-info"><li>' + result[i]
+                        .tanggal + '</li></ul></div></div>');
+                    if (result[i].id == id) {
+                        $("#tanggal").text(result[i].tanggal);
+                        $("#judul").text(result[i].judul);
+                        $("#isi").text(result[i].isi);
+                        $("#penulis").text(result[i].penulis);
+                        $("#file").attr("href", "/home/data/buletin/" + result[i].file);
+                        $("#embed").attr("src", "https://docs.google.com/gview?url=" +
+                            document.URL.substr(0, document.URL.lastIndexOf('/')) +
+                            "home/data/buletin/" + result[i].file + "&embedded=true");
+                    }
+                }
+                $("#listbuletin").append(listbuletin.join(''));
             }
-            $("#listbuletin").append(listbuletin.join(''));
-        }
-    });
-}
+        });
+    }
 
-$(function() {
-    $(document).ready(function() {
-        var id = getUrlParameter('id');
-        loadbuletin(id);
+    $(function() {
+        $(document).ready(function() {
+            var id = getUrlParameter('id');
+            loadbuletin(id);
+        });
     });
-});
 </script>

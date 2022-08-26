@@ -41,7 +41,7 @@ require('../../../layout/navbar.php')
 
 
                     Bagi anda yang akan menyampaikan laporan, silahkan klik link berikut
-                    <br><a href='/bmkgjuanda/pages/publik/pengaduan/input.php'><button class="btn btn-info">Pengaduan</button></a>
+                    <br><a href='/home/pages/publik/pengaduan/input.php'><button class="btn btn-info">Pengaduan</button></a>
 
 
 

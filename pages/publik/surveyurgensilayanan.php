@@ -17,8 +17,8 @@ require('../../layout/navbar.php')
                     </div>
                     <div class="card-body">
                         <div class="d-flex flex-direction-row " style="display: flex; flex-wrap: wrap;">
-                            <img src="/bmkgjuanda/assets/img/survey-urgensi-layanan/2.jpeg" width="400px" class=" mx-auto d-block mb-4" alt="">
-                            <img src="/bmkgjuanda/assets/img/survey-urgensi-layanan/3.jpeg" width="400px" class=" mx-auto d-block" alt="">
+                            <img src="/home/assets/img/survey-urgensi-layanan/2.jpeg" width="400px" class=" mx-auto d-block mb-4" alt="">
+                            <img src="/home/assets/img/survey-urgensi-layanan/3.jpeg" width="400px" class=" mx-auto d-block" alt="">
 
                         </div>
 

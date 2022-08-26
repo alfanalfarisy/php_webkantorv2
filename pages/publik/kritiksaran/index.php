@@ -69,7 +69,7 @@
             $('#btn_submit').show();
             $('#loader-icon').show();
             $.ajax({
-                url: "/bmkgjuanda/pages/publik/kritiksaran/inputhandle.php",
+                url: "/home/pages/publik/kritiksaran/inputhandle.php",
                 type: "POST",
                 dataType: 'json',
                 data: {

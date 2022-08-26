@@ -18,12 +18,12 @@ function kirim($tujuan, $nama, $judul, $isi, $eviden)
 		$mail->isSMTP();
 		$mail->Host       = 'smtp.gmail.com';
 		$mail->SMTPAuth   = true;
-		$mail->Username   = 'wbs.bmkgjuanda@gmail.com';
+		$mail->Username   = 'wbs.home@gmail.com';
 		$mail->Password   = 'warr96935';
 		$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 		$mail->Port       = 587;
 
-		$mail->setFrom('wbs.bmkgjuanda@gmail.com', 'BMKG Stasiun Meteorologi Juanda Sidoarjo');
+		$mail->setFrom('wbs.home@gmail.com', 'BMKG Stasiun Meteorologi Juanda Sidoarjo');
 		$mail->addAddress($tujuan, $nama);
 
 		if (!is_null($eviden)) $mail->addAttachment($eviden);
@@ -106,7 +106,7 @@ if ($_POST) {
 
 	if (move_uploaded_file($_FILES["eviden"]["tmp_name"], '../../../fileupload/' . basename($_FILES["eviden"]["name"]))) {
 		echo "<script>The file " . htmlspecialchars(basename($_FILES["eviden"]["name"])) . " has been uploaded.</script>";
-		$kirimlaporan = kirim('wbs.bmkgjuanda@gmail.com', 'BMKG Stasiun Meteorologi Juanda Sidoarjo', $judul, $isi, $eviden);
+		$kirimlaporan = kirim('wbs.home@gmail.com', 'BMKG Stasiun Meteorologi Juanda Sidoarjo', $judul, $isi, $eviden);
 		if ($kirimlaporan) {
 			kirim($email, $nama, 'Laporan WhistleBlowing System BMKG Juanda', 'Terima kasih telah melaporkan pelanggaran yang terjadi di kantor kami. Laporan anda akan kami proses lebih lanjut.', NULL);
 			$output = json_encode(array('type' => 'message', 'text' => 'Hai ' . $nama . ', Terima kasih banyak atas Laporan yang telah diberikan.'));

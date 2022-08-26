@@ -6,13 +6,13 @@ require('../../layout/navbar.php')
 
 
 <main id="main">
-<section>
-    <div class="container">
-        <div class="card p-4 shadow-lg">
-            <img src="/bmkgjuanda/assets/img/pelayanan/prosedur.jpg" alt="" width="80%" class="rounded mx-auto d-block" >
+    <section>
+        <div class="container">
+            <div class="card p-4 shadow-lg">
+                <img src="/home/assets/img/pelayanan/prosedur.jpg" alt="" width="80%" class="rounded mx-auto d-block">
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
 </main>
 <?php require('../../layout/footer.php') ?>

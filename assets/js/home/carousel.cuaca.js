@@ -119,7 +119,7 @@ function kecamatanSelected() {
         } " style="padding:10px; ">
                                         <div class="" >
                                             <div class="" style="display: flex; flex-direction:column;align-items: center;">
-                                                <img style="width:60px; " src="/bmkgjuanda/assets/img/icon-cuaca/${weathericon[
+                                                <img style="width:60px; " src="/home/assets/img/icon-cuaca/${weathericon[
                                                   element.weather
                                                 ].toLowerCase()}-${ampm}.png" alt="${weathericon[
           element.weather
@@ -206,7 +206,7 @@ function dateSelected() {
         } " style="padding:10px; ">
                                         <div class="" >
                                             <div class="" style="display: flex; flex-direction:column;align-items: center;">
-                                                <img style="width:60px; " src="/bmkgjuanda/assets/img/icon-cuaca/${weathericon[
+                                                <img style="width:60px; " src="/home/assets/img/icon-cuaca/${weathericon[
                                                   element.weather
                                                 ].toLowerCase()}-${ampm}.png" alt="${weathericon[
           element.weather
@@ -331,7 +331,7 @@ function initiate() {
         } " style="padding:10px; ">
                                         <div class="" >
                                             <div class="" style="display: flex; flex-direction:column;align-items: center;">
-                                                <img style="width:60px; " src="/bmkgjuanda/assets/img/icon-cuaca/${weathericon[
+                                                <img style="width:60px; " src="/home/assets/img/icon-cuaca/${weathericon[
                                                   element.weather
                                                 ].toLowerCase()}-${ampm}.png" alt="${weathericon[
           element.weather

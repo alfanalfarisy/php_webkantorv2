@@ -41,7 +41,7 @@ require('../../layout/libraryJs.php');
         let html = ''
         data.map(item => {
             html += ` <div class="card mb-2" style="width: 13rem;">
-                        <img src='/bmkgjuanda/assets/img/foto_pegawai/${item.GAMBAR}'
+                        <img src='/home/assets/img/foto_pegawai/${item.GAMBAR}'
                             class="card-img-top" height="250px" alt="...">
                         <div class="card-body">
                             <h5 class="card-title" style="height:40px;">${item.NAMA_JABATAN_TUGAS}</h5>

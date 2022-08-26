@@ -1,4 +1,4 @@
-setiap URL untuk ngakses assets dimulai dari /bmkgjuanda/assets/.. atau bisa ditulis lengkap https://juanda.jatim.bmkg.go.id/bmkgjuanda/
+setiap URL untuk ngakses assets dimulai dari /home/assets/.. atau bisa ditulis lengkap https://juanda.jatim.bmkg.go.id/home/
 
 
 /////// Template 

@@ -15,7 +15,7 @@ require('../../layout/navbar.php')
                         <h4 class="text-center">HASIL IKM</h4>
                     </div>
                     <div class="card-body">
-                        <img src="/bmkgjuanda/assets/img/hasil-ikm/hasilikm2022.png" width="80%" class="mx-auto d-block" alt="">
+                        <img src="/home/assets/img/hasil-ikm/hasilikm2022.png" width="80%" class="mx-auto d-block" alt="">
 
                     </div>
                 </div>
@@ -24,7 +24,7 @@ require('../../layout/navbar.php')
                         <h4 class="text-center">HASIL IPK</h4>
                     </div>
                     <div class="card-body">
-                        <img src="/bmkgjuanda/assets/img/hasil-ikm/hasilipk2022.png" width="80%" class="mx-auto d-block" alt="">
+                        <img src="/home/assets/img/hasil-ikm/hasilipk2022.png" width="80%" class="mx-auto d-block" alt="">
 
                     </div>
                 </div>

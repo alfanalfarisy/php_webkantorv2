@@ -14,7 +14,7 @@ require('../../layout/navbar.php')
 <section>
     <div class="container ">
         <div class="card p-4 box-shadow">
-            <img src="/bmkgjuanda/assets/img/pelayanan/tarif.jpeg" alt="" class="rounded mx-auto d-block" >
+            <img src="/home/assets/img/pelayanan/tarif.jpeg" alt="" class="rounded mx-auto d-block">
         </div>
 
     </div>
