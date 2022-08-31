@@ -18,8 +18,6 @@ require('../../layout/navbar.php')
 
 
 
-
-
                 <div id="accordion">
                     <div class="card">
                         <div class="card-header" id="headingOne">
@@ -34,14 +32,13 @@ require('../../layout/navbar.php')
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                             data-parent="#accordion">
                             <div class="card-body">
-                                <img class="img-responsive" src=https://juanda.jatim.bmkg.go.id/data/H08_EH_Jatim.png
-                                    alt="inframerah" width="720">
+
+                                <center><img class="img-responsive" src=https://juanda.jatim.bmkg.go.id/data/H08_EH_Jatim.png alt="inframerah" width="720"></center>
 
                                 <br>
-                                <a href=http://satelit.bmkg.go.id/IMAGE/HIMA/H08_EH_Indonesia.png>
-                                    <img class="img-responsive"
-                                        src=http://satelit.bmkg.go.id/IMAGE/HIMA/H08_EH_Indonesia.png alt="inframerah"
-                                        width="720"></a>
+
+                                <center><img class="img-responsive" src=http://202.90.198.22/IMAGE/HIMA/H08_EH_Indonesia.png alt="inframerah" width="720"></center>
+
                                 <h4>Keterangan:</h4>
                                 <p>Pada produk Himawari-8 EH, menunjukkan suhu puncak awan yang didapat dari
                                     pengamatan radiasi pada gelombang 10.4 mikrometer,yang kemudian
@@ -69,10 +66,7 @@ require('../../layout/navbar.php')
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    <a href="http://satelit.bmkg.go.id/IMAGE/HIMA/H08_RP_Jatim.png">
-                                        <img class="img-responsive"
-                                            src=http://satelit.bmkg.go.id/IMAGE/HIMA/H08_RP_Jatim.png alt="Rainfall"
-                                            width="720"></a>
+                                    <center><img class="img-responsive" src=http://202.90.198.22/IMAGE/HIMA/H08_RP_Jatim.png alt="Rainfall" width="720"></center>
                                     <h4>Keterangan:</h4>
                                     <p>Produk turunan Himawari-8 Potensial Rainfall adalah prodk yang dapat digunakan
                                         untuk mengestimasi potensi curah hujan.
@@ -95,10 +89,7 @@ require('../../layout/navbar.php')
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    <a href="http://satelit.bmkg.go.id/IMAGE/HIMA/H08_NC_Jatim.png">
-                                        <img class="img-responsive"
-                                            src=http://satelit.bmkg.go.id/IMAGE/HIMA/H08_NC_Jatim.png alt="Natural"
-                                            width="720"></a>
+                                    <center><img class="img-responsive" src=http://202.90.198.22/IMAGE/HIMA/H08_NC_Jatim.png alt="Natural" width="720"></center>
                                     <h4>Keterangan:</h4>
                                     <p>Produk Himawari-8 Natural Color menggunakan metode RGB( Red Green Blue).
                                         Dimana beberapa band dari data satelit digabungkan sehingga diperoleh

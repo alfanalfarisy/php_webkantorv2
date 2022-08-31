@@ -1311,8 +1311,7 @@
         var ignoreDragFor = ['a', 'button', 'input'];
 
         if (evt.target && evt.target.nodeName && ignoreDragFor.indexOf(evt.target.nodeName.toLowerCase()) >= 0) {
-          console.log('ignore drag for this touched element', evt.target.nodeName.toLowerCase());
-          return;
+                return;
         }
 
         this.now = Date.now();
@@ -3605,7 +3604,7 @@
           }
         }
 
-        console.log('stopSlideVideo is deprecated, use slidePlayerPause');
+      
         var player = this.getSlidePlayerInstance(slide);
 
         if (player && player.playing) {
@@ -3640,7 +3639,6 @@
           }
         }
 
-        console.log('playSlideVideo is deprecated, use slidePlayerPlay');
         var player = this.getSlidePlayerInstance(slide);
 
         if (player && !player.playing) {

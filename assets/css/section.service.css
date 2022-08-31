@@ -12,12 +12,11 @@ SERVICES
   transition: all 0.3s ease-in-out;
   border-radius: 15px;
   text-align: center;
-  border: 1px solid  #104120;;
-  border-bottom: 3px solid #fff;
+  border: 1px solid #104120;
+  border-bottom: 5px solid #fff;
+  border-color: #6e997c;
 }
 .services .icon-box:hover {
-  transform: translateY(-5px);
-  border-color: #6e997c;
   background-color: #4287f5;
 }
 .services .icon i {
@@ -58,7 +57,8 @@ SERVICES
     transition: all 0.3s ease-in-out;
     border-radius: 15px;
     text-align: center;
-    border-bottom: 3px solid #fff;
-    width: 100%;
+    border: 1px solid #104120;
+    border-bottom: 5px solid #fff;
+    border-color: #6e997c;
   }
 }

@@ -5,8 +5,8 @@
                 <!-- JUDUL -->
                 <div class="col-lg-6 col-xs-12 welcome">
                     <div class="col-12">
-                        <div class="title-title d-none d-sm-block">
-                            <h2>Selamat Datang di <br> BMKG Juanda</h2>
+                        <div class="title-title d-none d-sm-block ">
+                            <h2 class="animate__animated animate__headShake">Selamat Datang di <br> BMKG Juanda</h2>
                             <h6>Cepat, Tepat, Akurat, Luas, dan Mudah Dipahami</h6>
 
                         </div>

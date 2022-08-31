@@ -12,7 +12,7 @@ require('../../layout/navbar.php')
             <div class="card p-4 box-shadow">
                 <div class="card mb-4">
                     <div class="card-header">
-                        <h4 class="text-center">HASIL IKM</h4>
+                        <h4 class="text-center">HASIL <b>I</b>ndeks <b>K</b>epuasan <b>M</b>asyarakat</h4>
                     </div>
                     <div class="card-body">
                         <img src="/home/assets/img/hasil-ikm/hasilikm2022.png" width="80%" class="mx-auto d-block" alt="">
@@ -21,7 +21,7 @@ require('../../layout/navbar.php')
                 </div>
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="text-center">HASIL IPK</h4>
+                        <h4 class="text-center">HASIL <b>I</b>ndeks <b>P</b>resepsi <b>K</b>orupsi</h4>
                     </div>
                     <div class="card-body">
                         <img src="/home/assets/img/hasil-ikm/hasilipk2022.png" width="80%" class="mx-auto d-block" alt="">

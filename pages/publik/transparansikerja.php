@@ -28,7 +28,9 @@ require('../../layout/navbar.php')
                     <div class="card-body">
                         <ul>
                             <li><a title="Rencana Kinerja Tahunan Stamet Juanda Tahun 2022" href="/home/data/transparansikerja/rkt2022.pdf" target="_blank" rel="noopener noreferrer">Rencana Kinerja Tahunan Stamet Juanda Tahun 2022</a></li>
+                            <br>
                             <li><a title="Rencana Kinerja Tahunan Stamet Juanda Tahun 2021" href="/home/data/transparansikerja/rkt2021.pdf" target="_blank" rel="noopener noreferrer">Rencana Kinerja Tahunan Stamet Juanda Tahun 2021</a></li>
+                            <br>
                             <li><a title="Perjanjian Kinerja Stasiun Meteorologi Juanda Tahun 2021" href="/home/data/transparansikerja/pk2021.pdf" target="_blank" rel="noopener noreferrer">Perjanjian Kinerja Stasiun Meteorologi Juanda Tahun 2021</a></li>
 
                         </ul>

@@ -43,7 +43,8 @@
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
         <!-- moment -->
         <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <!-- MAIN CSS FILE -->
         <link href="/home/assets/css/main.css" rel="stylesheet">
         <link href="/home/assets/css/layout.navbar.css" rel="stylesheet">
@@ -55,6 +56,7 @@
         <link href="/home/assets/css/section.contact.css" rel="stylesheet">
         <link href="/home/assets/css/section.footer.css" rel="stylesheet">
         <link href="/home/assets/css/section.welcome.css" rel="stylesheet">
+        <link href="/home/assets/vendor/weather-icons/css/weather-icons.css" rel="stylesheet">
     </head>
     <!-- END HEAD -->
 

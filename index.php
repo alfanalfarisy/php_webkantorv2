@@ -15,7 +15,7 @@ require('layout/navbar.php')
     <?php require('layout/components/home/bannerbesar.php') ?>
     <?php require('layout/components/home/services.php') ?>
     <?php require('layout/components/home/contact.php') ?>
-
+    <?php require('layout/components/home/modalwbbm.php') ?>
 
 
 

@@ -46,7 +46,7 @@
                     <a href="https://juanda.jatim.bmkg.go.id/radar/" class="link-iconbox">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-broadcast"></i></div>
-                            <h4 class="title">Radar dan SimonRain WOFI</h4>
+                            <h4 class="title">WOFI</h4>
                             <p class="description">Informasi Citra Radar Cuaca Jawa Timur, update setiap 10 menit.</p>
                         </div>
                     </a>
@@ -67,28 +67,27 @@
                 </div>
                 <!-- LAYANAN 6 -->
                 <div class="col-md-6 col-xs-6 col-6 col-lg-3 d-flex align-items-stretch  mb-lg-0">
-                    <a href="https://juanda.jatim.bmkg.go.id/radar/gobis.html" class="link-iconbox">
+                    <a href="https://juanda.jatim.bmkg.go.id/radar/SILIBERO/" class="link-iconbox">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-sun"></i></div>
-                            <h4 class="title">Integrasi Radar & GoBIS</h4>
-                            <p class="description">Informasi cuaca pada lokasi Halte BIS di wilayah Surabaya.</p>
+                            <h4 class="title">SILIBERO</h4>
+                            <p class="description">Informasi prakiraan potensi wilayah terdampak banjir di wilayah Jawa Timur.</p>
                         </div>
                     </a>
                 </div>
                 <!-- LAYANAN 7 -->
                 <div class="col-md-6 col-xs-6 col-6 col-lg-3 d-flex align-items-stretch  mb-lg-0">
-                    <a href="/home/pages/layanan/posko.php" class="link-iconbox">
+                    <a href="https://www.bmkg.go.id/cuaca/prakiraan-cuaca-indonesia.bmkg" class="link-iconbox">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-shield-alt-2"></i></div>
-                            <h4 class="title">Posko Semeru 2021</h4>
-                            <p class="description">Memuat informasi pengamatan debu vulkanik dan prakiraan cuaca sekitar
-                                G. Semeru.</p>
+                            <h4 class="title">Cuaca Indonesia</h4>
+                            <p class="description">Prakiraan Cuaca Seluruh Indonesia</p>
                         </div>
                     </a>
                 </div>
                 <!-- LAYANAN 8 -->
                 <div class="col-md-6 col-xs-6 col-6 col-lg-3 d-flex align-items-stretch  mb-lg-0">
-                    <a href="https://www.bmkg.go.id/cuaca/citra-radar.bmkg" class="link-iconbox">
+                    <a href="http://juanda.jatim.bmkg.go.id/home/pages/layanan/integrasi_radar.php" class="link-iconbox">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-world"></i></div>
                             <h4 class="title">Radar Integrasi</h4>

@@ -78,7 +78,7 @@
 
 @media (max-width: 576px) {
   .meadia-wrapper {
-    width: 100%;
+    width: 90%;
     position: absolute;
   }
   .welcome {

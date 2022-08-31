@@ -83,7 +83,7 @@
                 success: function(response) {
                     $("#mail-status").show();
                     $('#loader-icon').hide();
-                    console.log(response)
+
                     if (response.type == "error") {
                         alert('Periksa Input Data')
                     } else if (response.type == "message") {
@@ -92,7 +92,7 @@
                     $("#mail-status").html(response.text);
                 },
                 error: function(error) {
-                    console.log('error')
+
                 }
             });
         }));

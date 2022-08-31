@@ -60,7 +60,6 @@ function kabupatenSelected() {
       $("#selectKec").attr("disabled", false);
       $("#selectKec").empty();
       $.each(response, function (key, value) {
-        console.log("ok");
         $("#selectKec").append(
           "<option value=" + value.idkec + ">" + value.namakec + "</option>"
         );
@@ -184,8 +183,6 @@ function dateSelected() {
   $("#prakicu").append('<p id="loading">LOADING...</p>');
   let allkota = [];
   dataAllTime.forEach((element) => {
-    console.log(moment(element[0].time).add(7, "hours").format("MM/DD/YYYY"));
-    console.log(selectedDate);
     if (
       moment(element[0].time).add(7, "hours").format("MM/DD/YYYY") ==
       selectedDate

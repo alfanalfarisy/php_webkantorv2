@@ -12,7 +12,7 @@ require('../../layout/navbar.php')
                 <h2 class="text-center">Survei Pemanfaatan Layanan Informasi Cuaca</h2>
 
                 <div>
-                    <iframe src="https://forms.zohopublic.com/bmkg59/form/SurveiUrgensiLayananInformasihome/formperma/z5e-dLhB9Kc19k7_BuFnDGqnsiRiAlahfGRt8VOyoFc" title="SURVEY EVALUASI BMKG" height="3000px" width="100%" style="border:none;"></iframe>
+                    <iframe src="https://forms.zohopublic.com/bmkg59/form/SurveiUrgensiLayananInformasiBMKGJuanda/formperma/z5e-dLhB9Kc19k7_BuFnDGqnsiRiAlahfGRt8VOyoFc" title="SURVEY EVALUASI BMKG" height="3000px" width="100%" style="border:none;"></iframe>
 
                 </div>
             </div>

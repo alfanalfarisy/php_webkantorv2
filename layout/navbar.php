@@ -20,7 +20,7 @@
                   <!-- PENGAMATAN -->
                   <li class="dropdown"><a href="#"><span>PENGAMATAN</span> <i class="bi bi-chevron-down"></i></a>
                       <ul>
-                          <li><a href="/home/pages/pengamatan/metar.php">Metar</a></li>
+                          <li><a href="/home/pages/pengamatan/metar.php">METAR</a></li>
 
                       </ul>
                   </li>
@@ -33,8 +33,8 @@
                           <li><a href="/home/pages/prakiraan/kecamatan1d.php">Cuaca Kecamatan Hari Ini</a></li>
                           <li><a href="/home/pages/prakiraan/kecamatan2d.php">Cuaca Kecamatan Esok Hari</a></li>
                           <li><a href="/home/pages/prakiraan/kecamatan7d.php">Cuaca Kecamatan 7 Harian</a></li>
-                          <li><a href="/home/pages/prakiraan/tafor.php">Tafor</a></li>
-                          <li><a href="https://karangploso.jatim.bmkg.go.id/index.php">Iklim</a></li>
+                          <li><a href="/home/pages/prakiraan/tafor.php">TAFOR</a></li>
+                          <li><a href="https://karangploso.jatim.bmkg.go.id/index.php">IKLIM</a></li>
                       </ul>
                   </li>
                   <!-- GEMPA BUMI -->
@@ -51,13 +51,14 @@
                   <!-- PUBLIK -->
                   <li class="dropdown"><a href="#"><span>PUBLIK</span> <i class="bi bi-chevron-down"></i></a>
                       <ul>
-                          <li><a href="/home/pages/publik/surveyikmipk.php">Survei IKM</a></li>
-                          <li><a href="/home/pages/publik/surveyevaluasi.php">Survei Evaluasi</a></li>
-                          <li><a href="/home/pages/publik/transparansikerja.php">Transparansi Kerja</a></li>
-                          <li><a href="/home/pages/publik/kritiksaran">Krtik dan Saran</a></li>
-                          <li><a href="/home/pages/publik/pengaduan/index.php">Pengaduan</a></li>
+                          <li><a href="/home/pages/publik/surveyikmipk.php">Survei IKM & IPK</a></li>
                           <li><a href="/home/pages/publik/hasilikmipk.php">Hasil IKM dan IPK</a></li>
-                          <li><a href="/home/pages/publik/surveyurgensilayanan.php">Hasil Survei Urgensi Layanan</a></li>
+                          <li><a href="/home/pages/publik/surveyevaluasi.php">Survei EVALUASI</a></li>
+                          <li><a href="/home/pages/publik/surveyurgensilayanan.php">Hasil SURVEI URGENSI LAYANAN</a></li>
+                          <li><a href="/home/pages/publik/transparansikerja.php">Transparansi Kerja</a></li>
+                          <li><a href="/home/pages/publik/kritiksaran">Kritik dan Saran</a></li>
+                          <!-- <li><a href="/home/pages/publik/pengaduan/index.php">Pengaduan</a></li> --> 
+
                       </ul>
                   </li>
                   <li><a class="nav-link scrollto" href="https://juanda.jatim.bmkg.go.id/tata-usaha">TATA USAHA</a></li>

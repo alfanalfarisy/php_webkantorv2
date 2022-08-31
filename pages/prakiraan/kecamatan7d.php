@@ -137,7 +137,7 @@ require('../../layout/libraryJs.php');
     function kabupatenSelected() {
 
         const selectedKab = $('#selectKab option:selected').val()
-        console.log(selectedKab)
+
         $.ajax({
             url: `https://juanda.jatim.bmkg.go.id/node/api/constants/listNamaKecamatanIdKab/${selectedKab}`,
             type: 'GET',
@@ -146,7 +146,7 @@ require('../../layout/libraryJs.php');
                 $("#selectKec").attr('disabled', false);
                 $("#selectKec").empty()
                 $.each(response, function(key, value) {
-                    console.log('ok')
+
                     $("#selectKec").append('<option value=' + value.idkec + '>' + value.namakec +
                         '</option>')
                 });
@@ -238,8 +238,7 @@ require('../../layout/libraryJs.php');
         $("#prakicu").append('<p id="loading">LOADING...</p>');
         let allkota = []
         dataAllTime.forEach(element => {
-            console.log(moment(element[0].time).add(7, 'hours').format('MM/DD/YYYY'))
-            console.log(selectedDate)
+
             if (moment(element[0].time).add(7, 'hours').format('MM/DD/YYYY') == selectedDate) {
                 element.forEach(element => {
                     let ampm = moment(element.time).add(7, 'hours').format('A').toLowerCase()

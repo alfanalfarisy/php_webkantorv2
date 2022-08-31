@@ -27,6 +27,7 @@
                         <div class="item"><img src="/home/assets/img/wbbm/verlap_wbbm_5.jpeg" alt="" style="height:14.8em;" onclick="onClick(this)" class="w3-hover-opacity"></div>
                         <div class="item"><img src="/home/assets/img/wbbm/verlap_wbbm_6.jpeg" alt="" style="height:14.8em;" onclick="onClick(this)" class="w3-hover-opacity"></div>
                         <div class="item"><img src="/home/assets/img/wbbm/verlap_wbbm_7.jpeg" alt="" style="height:14.8em;" onclick="onClick(this)" class="w3-hover-opacity"></div>
+                        <div class="item"><img src="/home/assets/img/wbbm/verlap_wbbm_8.jpeg" alt="" style="height:14.8em;" onclick="onClick(this)" class="w3-hover-opacity"></div>                        
                     </div>
                 </div>
                 <div class="col-lg-4">

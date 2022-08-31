@@ -9,8 +9,6 @@ $.ajax({
   crossDomain: true,
   dataType: "json",
   success: function (msg) {
-    console.log(msg);
-
     var imageUrl = `https://juanda.jatim.bmkg.go.id${msg.cmax.replace(
       "..",
       ""

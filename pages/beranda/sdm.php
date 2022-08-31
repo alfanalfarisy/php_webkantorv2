@@ -12,8 +12,8 @@ require('../../layout/navbar.php')
         <div class="container">
             <div class="card" style="padding: 10px;">
                 <div class="sdm-title">
-                    <h4>SUMBER DAYA MANUSIA</h4>
-                    <p> STAF KARYAWAN/ KARYAWATI BMKG JUANDA SIDOARJO</p>
+                    <center><h4>SUMBER DAYA MANUSIA</h4></center>
+                    <center><p> STAFF KARYAWAN/ KARYAWATI BMKG JUANDA SIDOARJO</p></center>
                 </div>
                 <div class="d-inline-flex flex-row justify-content-around" style="display: flex;flex-wrap: wrap;" id="sdm_div">
 

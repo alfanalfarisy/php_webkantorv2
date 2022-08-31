@@ -14,7 +14,7 @@ require('../../layout/navbar.php')
 
             <div class="card p-4 box-shadow">
 
-                <h2 class="text-center">Peringatan 3 Harian Jawa Timur</h2>
+                <h2 class="text-center">Cuaca Wisata Jawa Timur</h2>
 
 
 
@@ -26,7 +26,7 @@ require('../../layout/navbar.php')
                             <h5 class="mb-0">
                                 <h5 class="text-center" data-toggle="collapse" data-target="#collapseOne"
                                     aria-expanded="true" aria-controls="collapseOne">
-                                    Peringatan Tiga Harian
+                                    Cuaca Wisata
                                 </h5>
                             </h5>
                         </div>
@@ -36,14 +36,40 @@ require('../../layout/navbar.php')
                             <div class="card-body">
 
                                 <a
-                                    href=https://juanda.jatim.bmkg.go.id/cuwis/peringatan_dini_3_harian.png>
-                                    <img class="img-responsive"
-                                        src=https://juanda.jatim.bmkg.go.id/cuwis/peringatan_dini_3_harian.png
-                                        alt="00 UTC" height="720"></a>
+                                    href=https://juanda.jatim.bmkg.go.id/cuwis/posko_wisata1.png>
+                                    <center><img class="img-responsive"
+                                        src=https://juanda.jatim.bmkg.go.id/cuwis/posko_wisata1.png
+                                        alt="00 UTC" height="720"></center></a>
+                                <br>
+                                <a
+                                    href=https://juanda.jatim.bmkg.go.id/cuwis/posko_wisata2.png>
+                                    <center><img class="img-responsive"
+                                        src=https://juanda.jatim.bmkg.go.id/cuwis/posko_wisata2.png
+                                        alt="00 UTC" height="720"></center></a>
+
                             </div>
                         </div>
 
-                   
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <h5 class="text-center collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                        Cuaca Gunung
+                                    </h5>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <a
+                                        href=https://juanda.jatim.bmkg.go.id/cuwis/posko_wisata2.png>
+                                        <center><img class="img-responsive"
+                                            src=https://juanda.jatim.bmkg.go.id/cuwis/posko_wisata2.png
+                                            alt="12 UTC" height="720"></center></a>
+                                </div>
+                            </div>
+                        </div>
                        
                     </div>
 
