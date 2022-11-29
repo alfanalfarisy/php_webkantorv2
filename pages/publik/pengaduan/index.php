@@ -23,7 +23,8 @@ require('../../../layout/navbar.php')
                 <div class="card p-4">
                     <h5>Untuk mempermudah masyarakat dalam menyampaikan laporan, Stasiun Meteorologi Kelas I Juanda telah menyediakan sarana online yang dapat diakses setiap saat.
 
-                        <br><br>Ruang lingkup Pengaduan Masyarakat yang kami terima meliputi:
+                        <br>
+                        <br>Ruang lingkup Pengaduan Masyarakat yang kami terima meliputi:
                         <br>a. penyalahgunaan wewenang;
                         <br>b. pelayanan masyarakat;
                         <br>c. korupsi, kolusi, dan nepotisme serta pungutan liar;
@@ -41,7 +42,7 @@ require('../../../layout/navbar.php')
 
 
                     Bagi anda yang akan menyampaikan laporan, silahkan klik link berikut
-                    <br><a href='/home/pages/publik/pengaduan/input.php'><button class="btn btn-info">Pengaduan</button></a>
+                    <br><a target="blank" href='https://www.lapor.go.id/instansi/badan-meteorologi-klimatologi-dan-geofisika'><button class="btn btn-info">Pengaduan</button></a>
 
 
 
@@ -70,7 +71,7 @@ require('../../../layout/libraryJs.php');
             }],
             ['Januari', 0, '0'],
             ['Februari', 0, '0'],
-            ['Maret', 0, '0'],
+            ['Maret', 1, '1'],
             ['April', 0, '0'],
             ['Mei', 0, '0'],
             ['Juni', 0, '0'],
@@ -81,7 +82,7 @@ require('../../../layout/libraryJs.php');
 
         // Set chart options
         var options = {
-            title: 'Jumlah Pengaduan Masyarakat Tahun 2021',
+            title: 'Jumlah Pengaduan Masyarakat Tahun 2022',
             vAxis: {
                 title: 'Jumlah',
                 minValue: 0,

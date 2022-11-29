@@ -1,4 +1,7 @@
-var map = L.map("map").setView([-7.25260732149773, 112.73423225692369], 13);
+var map = L.map("mapCuaca").setView(
+  [-7.25260732149773, 112.73423225692369],
+  13
+);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 8,
 }).addTo(map);

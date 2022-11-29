@@ -39,13 +39,13 @@ require('../../layout/navbar.php')
                                     href=https://juanda.jatim.bmkg.go.id/cuwis/posko_wisata1.png>
                                     <center><img class="img-responsive"
                                         src=https://juanda.jatim.bmkg.go.id/cuwis/posko_wisata1.png
-                                        alt="00 UTC" height="720"></center></a>
+                                        alt="00 UTC" width="80%"></center></a>
                                 <br>
                                 <a
                                     href=https://juanda.jatim.bmkg.go.id/cuwis/posko_wisata2.png>
                                     <center><img class="img-responsive"
                                         src=https://juanda.jatim.bmkg.go.id/cuwis/posko_wisata2.png
-                                        alt="00 UTC" height="720"></center></a>
+                                        alt="00 UTC" width="80%"></center></a>
 
                             </div>
                         </div>
@@ -63,10 +63,10 @@ require('../../layout/navbar.php')
                                 data-parent="#accordion">
                                 <div class="card-body">
                                     <a
-                                        href=https://juanda.jatim.bmkg.go.id/cuwis/posko_wisata2.png>
+                                        href=https://juanda.jatim.bmkg.go.id/cuwis/wisata_gunung.png>
                                         <center><img class="img-responsive"
-                                            src=https://juanda.jatim.bmkg.go.id/cuwis/posko_wisata2.png
-                                            alt="12 UTC" height="720"></center></a>
+                                            src=https://juanda.jatim.bmkg.go.id/cuwis/wisata_gunung.png
+                                            alt="wisata gunung" width="80%"></center></a>
                                 </div>
                             </div>
                         </div>

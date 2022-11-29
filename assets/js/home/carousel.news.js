@@ -30,8 +30,12 @@ $.ajax({
                   200
                 )}....</div>
                 <ul class="postcard__tagbox">
-                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Read Full</li>
-
+                    <li class="tag__item">
+                    <a href="https://juanda.jatim.bmkg.go.id/home/pages/beranda/berita.php?id=${
+                      item.id
+                    }">
+                    <i class="fas fa-tag mr-2"></i>Read Full</li>
+                    </a>
                 </ul>
             </div>
         </article>
@@ -46,7 +50,7 @@ $.ajax({
       items: 1,
       responsiveClass: true,
       autoHeight: true,
-      autoplayTimeout: 4000,
+      autoplayTimeout: 7000,
       smartSpeed: 800,
     });
   },

@@ -39,7 +39,7 @@ require('../../layout/navbar.php')
                                     href=https://juanda.jatim.bmkg.go.id/cuwis/peringatan_dini_3_harian.png>
                                     <center><img class="img-responsive"
                                         src=https://juanda.jatim.bmkg.go.id/cuwis/peringatan_dini_3_harian.png
-                                        alt="00 UTC" height="720"></center></a>
+                                        alt="00 UTC" width="80%"></center></a>
                             </div>
                         </div>
 

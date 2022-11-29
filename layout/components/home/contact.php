@@ -86,11 +86,11 @@
             <h4><b>Sosial Media Kami</b></h4>
           </div>
           <h5>
-            <a href="https://api.whatsapp.com/send/?phone=6281216521112&text&app_absent=0" class="whatsapp"><i class="bi bi-whatsapp"></i></a>&ensp;
-            <a href="https://www.instagram.com/infohome/" class="instagram"><i class="bi bi-instagram"></i></a>&ensp;
+            <!-- <a href="" class="whatsapp"><i class="bi bi-whatsapp"></i></a>&ensp; -->
+            <a href="https://www.instagram.com/infobmkgjuanda" class="instagram"><i class="bi bi-instagram"></i></a>&ensp;
             <a href="https://www.youtube.com/channel/UCYsIZFg-1YwSinDvWHVcb6w" class="youtube"><i class="bi bi-youtube"></i></a>&ensp;
-            <a href="https://twitter.com/infohome" class="twitter"><i class="bi bi-twitter"></i></a>&ensp;
-            <a href="https://www.facebook.com/infohome" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com/infobmkgjuanda" class="twitter"><i class="bi bi-twitter"></i></a>&ensp;
+            <a href="https://www.facebook.com/infobmkgjuanda/" class="facebook"><i class="bi bi-facebook"></i></a>
           </h5>
         </div>
 

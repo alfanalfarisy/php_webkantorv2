@@ -20,7 +20,6 @@
     <div class="container">
         <div class="row g-0">
             <div class="col-md-2">
-
                 <div class="peringatan-dini-home-head ">
                     <h4><span></span>Peringatan Dini</h4>
                 </div>
@@ -30,7 +29,7 @@
                     <div class="text-center">
                         <strong>
                             <span id="warningListTgl"></span></strong>
-                        <p style="font-size: 13px;">
+                        <p style="font-size: 15px;">
                             <span id="warninglist"></span>
                         </p>
                     </div>

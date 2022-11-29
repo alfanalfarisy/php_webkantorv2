@@ -38,7 +38,7 @@ require('../../layout/navbar.php')
                                 <a href=https://web.meteo.bmkg.go.id//media/data/bmkg/mfy/ecmwf/Analisis/streamline_3000_00.png>
                                     <center><img class="img-responsive"
                                         src=https://web.meteo.bmkg.go.id//media/data/bmkg/mfy/ecmwf/Analisis/streamline_3000_00.png
-                                        alt="00 UTC" width="720"></center></a>
+                                        alt="00 UTC" width="70%"></center></a>
                             </div>
                         </div>
 
@@ -59,7 +59,7 @@ require('../../layout/navbar.php')
                                     <a href=https://web.meteo.bmkg.go.id//media/data/bmkg/mfy/ecmwf/Analisis/streamline_3000_12.png>
                                         <center><img class="img-responsive"
                                             src=https://web.meteo.bmkg.go.id//media/data/bmkg/mfy/ecmwf/Analisis/streamline_3000_12.png
-                                            alt="12 UTC" width="720"></center></a>
+                                            alt="12 UTC" width="70%"></center></a>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +80,7 @@ require('../../layout/navbar.php')
                                     <a href=http://web.meteo.bmkg.go.id//media/data/bmkg/mfy/ecmwf/Analisis/zonal_3000_00.png> 
                                         <center><img class="img-responsive"
                                             src=http://web.meteo.bmkg.go.id//media/data/bmkg/mfy/ecmwf/Analisis/zonal_3000_00.png
-                                            alt="Natural" width="720"></center></a>
+                                            alt="Natural" width="70%"></center></a>
                                 </div>
                             </div>
                         </div>

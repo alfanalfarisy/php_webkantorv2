@@ -12,8 +12,26 @@
     <!-- HEAD -->
 
     <head>
+
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        
+        <!-- Meta, title, CSS, favicons, etc. -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="BMKG Stasiun Meteorologi Juanda Sidoarjo">
+        <meta name="keywords" content="BMKG Juanda, Prakiraan Cuaca, Radar Cuaca, Cuaca Penerbangan, Surabaya, Sidoarjo, Jawa Timur">
+        <meta name="author" content="0x35">
+        <meta name="theme-color" content="#2A3F54" />
+        <meta property="og:site_name" content="BMKG Stasiun Meteorologi Juanda Sidoarjo" />
+        <meta property="og:title" content="BMKG Stasiun Meteorologi Juanda Sidoarjo" />
+        <meta property="og:description" content="Website resmi BMKG Stamet Juanda Sidoarjo &copy; 2019" />
+        <meta property="og:image" itemprop="image" content="https://juanda.jatim.bmkg.go.id/webkantor/img/logo_putih.png">
+        <meta property="og:type" content="website" />
+        <title>BMKG Stasiun Meteorologi Juanda Sidoarjo</title>
+
+        <link rel="icon" type="image/png" href="https://juanda.jatim.bmkg.go.id/webkantor/img/logo_putih.png" />
 
         <!-- LOGO TAB -->
         <link href="/home/assets/img/logobmkg.png" rel="icon">

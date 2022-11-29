@@ -10,17 +10,19 @@ $.ajax({
       var warninglist =
         "<div>" +
         result.data.split(" di ")[0] +
-        '<button data-toggle="modal" data-target="#modalPeringatanDini" style=" background-color: transparent;    background-repeat: no-repeat;    border: none;    cursor: pointer;    overflow: hidden;    outline: none;">Selengkapnya</button>';
+        '<button data-toggle="modal" data-target="#modalPeringatanDini" style=" background-color: transparent;    background-repeat: no-repeat;    border: none;    cursor: pointer;    overflow: hidden;    outline: none;   color:white; "><i><u>Selengkapnya</u></i></button>';
       newData = result.data.split("Kabupaten");
       tgl = newData[0].split("tgl")[1].split("berpotensi")[0].split("pkl.")[0];
       waktu = newData[0]
         .split("tgl")[1]
         .split("berpotensi")[0]
         .split("pkl.")[1];
+      hinggaWaktu = result.data.split("hingga pkl")[1].split("Prakirawan")[0];
 
       var headlineUpdateCuaca = `<h3>${newData[0].split("tgl")[0]}</h3>`;
       var tglStrong = `<p><strong> Tanggal : </strong>${tgl}</p>`;
-      var waktuStrong = `<p><strong> Waktu : </strong>${waktu}</p>`;
+      var waktuStrong = `<p><strong> Waktu Mulai  : </strong>${waktu}</p>`;
+      var hinggaWaktuStrong = `<p><strong> Berlangsung Hingga  : </strong>${hinggaWaktu}</p>`;
       var potensi = `<strong>Potensi : </strong><p>${
         newData[0].split("tgl")[1].split("berpotensi")[1]
       } :</p>`;
@@ -42,7 +44,11 @@ $.ajax({
 
       $("#warninglistmodal").html("");
       $("#warninglistmodal").append(
-        headlineUpdateCuaca + tglStrong + waktuStrong + dataWarningListModal
+        headlineUpdateCuaca +
+          tglStrong +
+          waktuStrong +
+          hinggaWaktuStrong +
+          dataWarningListModal
       );
     }
     $("#warninglist").append(warninglist);

@@ -69,7 +69,7 @@
             $('#btn_submit').show();
             $('#loader-icon').show();
             $.ajax({
-                url: "/home/pages/publik/kritiksaran/inputhandle.php",
+                url: "/home/pages/publik/kritiksaran/handle.php",
                 type: "POST",
                 dataType: 'json',
                 data: {

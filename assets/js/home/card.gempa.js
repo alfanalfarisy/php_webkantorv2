@@ -24,7 +24,6 @@ $(document).ready(function () {
       "Access-Control-Allow-Origin": "*",
     },
     success: (results) => {
-      console.log(results);
       $("#img-location-gempa").html(
         ` <a id="link-img-gempa" href="https://ews.bmkg.go.id/tews/data/${results.Infogempa.gempa.Shakemap}" class="fancybox img-hover-v1" rel="gallery1" title="Gempabumi Terkini">
         <img class="img-fluid" id="img-gempa" src="https://ews.bmkg.go.id/tews/data/${results.Infogempa.gempa.Shakemap}" alt="">

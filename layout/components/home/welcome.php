@@ -10,15 +10,22 @@
                             <h6>Cepat, Tepat, Akurat, Luas, dan Mudah Dipahami</h6>
 
                         </div>
-                        <div>
-
-                            <div class="meadia-wrapper">
-                                <div class=" media-headline">
-                                    <h6>Media (Video WBBM)</h6>
+                        <div class="col-12">
+                            <div class="col-6">
+                                <div class="meadia-wrapper">
+                                    <div class=" media-headline">
+                                        <h6>Media (Video WBBM)</h6>
+                                    </div>
+                                    <a href="" target="_blank"><iframe width="100%" src="https://www.youtube.com/embed/52rAKV0WWts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
                                 </div>
-                                <i class='bx bx-play-circle play-media'></i>
-                                <a href="https://www.youtube.com/watch?v=udOySvTWfpw&ab_channel=Infohome" target="_blank"><img src="/home/assets/img/media.jpeg" width="100%" alt="playstore" class="img-responsive"></a>
-
+                            </div>
+                            <div class="col-6">
+                                <div class="prakiraan-wrapper">
+                                    <div class=" media-headline">
+                                        <h6>Media (Video Prakiraan)</h6>
+                                    </div>
+                                    <a href="" target="_blank"><iframe width="100%" src="https://www.youtube.com/embed/XLgPOrQjPz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
+                                </div>
                             </div>
                         </div>
 
@@ -29,8 +36,7 @@
                         <div class="row justify-items-end" style="height: 100%;">
 
                             <div class="col-3">
-                                <a href="https://juanda.jatim.bmkg.go.id/radar"><button class="btn-menu-welcome"><span>Radar
-                                            Jatim</span></button></a>
+                                <a href="https://juanda.jatim.bmkg.go.id/radar"><button class="btn-menu-welcome"><span>Radar Jatim</span></button></a>
 
                             </div>
                             <div class="col-5">

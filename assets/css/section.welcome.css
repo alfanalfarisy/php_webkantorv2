@@ -75,12 +75,27 @@
   width: 300px;
   position: absolute;
 }
+.prakiraan-wrapper {
+  width: 250px;
+  position: absolute;
+  right:50px;
+}
+
+@media (max-width: 800px) {
+  .meadia-wrapper {
+    width: 90%;
+    /* position: absolute; */
+  }
+}
 
 @media (max-width: 576px) {
   .meadia-wrapper {
     width: 90%;
-    position: absolute;
+    /* position: absolute; */
   }
+  .prakiraan-wrapper {
+    display: none;
+  }  
   .welcome {
     position: relative;
     min-height: 350px;

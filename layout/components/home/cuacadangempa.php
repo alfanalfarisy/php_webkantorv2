@@ -12,7 +12,12 @@
                         <h4>Cuaca Terkini</h4>
                     </div>
                     <div class="card-gempa">
-                        <div id="map" style="height:100%"></div>
+                        <!-- <div class="owl-carousel" id="carouselBanner"> -->
+                        <div class="item" id="mapCuaca" style="height:100%"></div>
+                        <!-- <div class="item" id="mapWarning" style="height:100%"></div> -->
+                        <!-- </div> -->
+                        <!-- <div id="map" style="height:100%"></div> -->
+                        <!-- <iframe src="https://juanda.jatim.bmkg.go.id/radar/maintainance.html" title="Radar Maintenance" style="width:100%;height:100%;"></iframe> -->
                     </div>
                 </div>
 

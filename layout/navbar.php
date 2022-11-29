@@ -1,6 +1,6 @@
   <!-- ======= HEADER ======= -->
   <!-- BACKGROUND HEADER -->
-  <div><a href="/home"><img src="/home/assets/img/headerbmkg.png" width=100% max-height=150px class="img-responsive"></a></div>
+  <div><a href="/home"><img src="/home/assets/img/headerbmkg.jpg" width=100% max-height=150px class="img-responsive"></a></div>
 
   <header id="header" class="d-flex align-items-center">
       <div class="container d-flex align-items-center justify-content-between">
@@ -21,6 +21,9 @@
                   <li class="dropdown"><a href="#"><span>PENGAMATAN</span> <i class="bi bi-chevron-down"></i></a>
                       <ul>
                           <li><a href="/home/pages/pengamatan/metar.php">METAR</a></li>
+                          <li><a href="https://juanda.jatim.bmkg.go.id/aviation/">FLight Wofi</a></li>
+                          <li><a href="https://juanda.jatim.bmkg.go.id/radar/SILIBERO/">Si Libero</a></li>
+                          <li><a href="https://juanda.jatim.bmkg.go.id/radar/">Radar Jatim</a></li>
 
                       </ul>
                   </li>
@@ -57,11 +60,11 @@
                           <li><a href="/home/pages/publik/surveyurgensilayanan.php">Hasil SURVEI URGENSI LAYANAN</a></li>
                           <li><a href="/home/pages/publik/transparansikerja.php">Transparansi Kerja</a></li>
                           <li><a href="/home/pages/publik/kritiksaran">Kritik dan Saran</a></li>
-                          <!-- <li><a href="/home/pages/publik/pengaduan/index.php">Pengaduan</a></li> --> 
+                          <li><a href="/home/pages/publik/pengaduan/index.php">Pengaduan</a></li>
 
                       </ul>
                   </li>
-                  <li><a class="nav-link scrollto" href="https://juanda.jatim.bmkg.go.id/tata-usaha">TATA USAHA</a></li>
+                  <li><a class="nav-link scrollto" href="http://juanda.jatim.bmkg.go.id/tata-usaha">TATA USAHA</a></li>
               </ul>
               <i class="bi bi-list mobile-nav-toggle"></i>
           </nav>
